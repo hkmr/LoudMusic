@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/recent_played_songs"
+                    style="@style/song_generic_block"
+                    android:background="@android:color/holo_red_light"
+                    android:text="Recent Played" />
+
+                <TextView
+                    android:id="@+id/top_100_songs"
+                    style="@style/song_generic_block"
+                    android:background="@android:color/holo_blue_light"
+                    android:text="Top 100" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/english_songs"
+                    style="@style/song_generic_block"
+                    android:background="@android:color/holo_orange_dark"
+                    android:text="English" />
+
+                <TextView
+                    android:id="@+id/hindi_songs"
+                    style="@style/song_generic_block"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="Hindi" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

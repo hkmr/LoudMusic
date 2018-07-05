@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoudMusic</string>
+    <string name="top_100_songs">TOP 100 SONGS</string>
+    <string name="recent_played_songs">RECENTLY PLAYED</string>
+    <string name="english_songs">ENGLISH SONGS</string>
+    <string name="hindi_songs">HINDI SONGS</string>
+</resources>
